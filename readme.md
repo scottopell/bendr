@@ -14,13 +14,21 @@ Note about the seed file, it isn't the most reliable script we've ever written, 
 
 ###Steps
 `cd ~`
+
 `git clone git@github.com:scottopell/bendr.git`  or whichever one of our forks has the most recent version, I'll try to merge in PRs promptly.
+
 `cd bendr`
+
 `rvm use ruby-2.0` 
+
 `bundle install`
+
 `find ~/path/to/my/music -type f -name '*.mp3' ~/bendr/public/music` or just do this manually, you probably don't want ALL your music.
+
 `rake db:migrate`
+
 `rake db:seed`
+
 `rails s`
 
 This should get you up and running on localhost:3000
