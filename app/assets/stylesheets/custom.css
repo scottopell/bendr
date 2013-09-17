@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-image: url('escheresque_ste.png');
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1em;
+  color: #FFF;
+  font-weight:bold;
+}
+
+.container {
+  max-width: none !important;
+  width: 970px;
+}
+
+.Three-Dee{
+  padding: 30px 20px 15px 0;
+  font-size: 65px;
+  text-shadow:0px 0px 0 rgb(118,118,118),
+              1px 1px 0 rgb(-10,-10,-10), 
+              2px 2px 0 rgb(-137,-137,-137),
+              3px 3px 2px rgba(0,0,0,0.65),
+              3px 3px 1px rgba(0,0,0,0.5),
+              0px 0px 2px rgba(0,0,0,.2);
+}
+
+.user-info{
+  margin-top: 11px;
+  margin-right: 20px;
+  float: right;
+  color: #FFF;
+  line-height: 1em;
+}
+
+.navbar{
+  background-color: #610B0B;
+  border-bottom: 5px solid #FFF;
+}
+
+.bend{
+  margin-top: -5px;
+}
+
+.twitter-typeahead, .tt-hint, .tt-dropdown-menu{
+  width: 373px;
+}
+
+.icon-facebook{
+  margin-right: 5px;
+}
+
+a.btn:hover{
+  color: #428bca;
+}
+
+.margin-base-vertical{
+  margin: 40px 0;
+  text-align: center;
+}
+
+.matches{
+  margin-top: 10px;
+}
+
+.icons{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.icon{
+  margin: 0 20px;
+}
+
+.icon:hover{
+  color: #AAA;
+}
+
+.icon:active{
+  color: #610B0B;
+}
+
+.music{
+  font-size: 15px;
+}
+
+.tt-suggestions{
+  color: #000;
+}
+
+.balancer {
+  width: 455px;
+  margin-left: -10px;
+}
+
+canvas {
+  margin-top: 80px;
+}
+
+.muted{
+  color: #610B0B !important;
+  -webkit-text-stroke: 1px #FFF;
+}
+
+.modal-content{
+  background-color: #610B0B;
+  border: 1px solid #FFF;
+  text-align: center;
+}
+
+.modal-dialog{
+  margin-top: 300px;
+}
+.icon-thumbs-down{
+  margin-right: 5px;
+}

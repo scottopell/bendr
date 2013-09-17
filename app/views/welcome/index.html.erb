@@ -1,0 +1,37 @@
+<section>
+  <div style="z-index:-1">
+    <canvas id="fft" class="fft" width="512" height="200"></canvas>
+    <canvas id="fft2" class="fft" width="512" height="200"></canvas>
+  </div>
+</section>
+<% if @mashup_id.present? %>
+  <span id="mashupid" data-mashupid="<%= @mashup_id %>"></span>
+<% end %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+      <h1 class="margin-base-vertical">bend your music limits</h1>
+      <div class="icons"><i class="icon-play icon"></i><i class="icon-pause icon"></i><i class="icon-volume-off icon"></i><i class="icon-volume-down icon"></i><i class="icon-volume-up icon"></i><i class="icon-share icon"></i>
+      </div> 
+      <div class="search">
+        <input type="text" class="search-box typeahead form-control input-lg" id="mashup_query" placeholder="Search For Music.">
+        <button class="btn btn-default btn-lg bend">Bend</button>
+      </div>
+      <div class="list-group matches hide">
+      </div>
+      <div class="icons">
+        <i class='icon-thumbs-up icon'></i><i class='icon-thumbs-down icon'></i>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div id="share_url_box" class="modal-body">
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
