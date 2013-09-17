@@ -23,7 +23,7 @@ Note about the seed file, it isn't the most reliable script we've ever written, 
 
 `bundle install`
 
-`find ~/path/to/my/music -type f -name '*.mp3' ~/bendr/public/music` or just do this manually, you probably don't want ALL your music.
+`find ~/path/to/my/music -type f -name '*.mp3' -exec cp {} ~/bendr/public/music` or just do this manually, you probably don't want ALL your music.
 
 `rake db:migrate`
 
