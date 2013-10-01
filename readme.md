@@ -1,9 +1,10 @@
 #Bendr
+### Developed by [Kirby Kohlmorgen](https://github.com/kirbyk), [Brittany Vacchiano](https://github.com/bvacchiano), [Rick Button](https://github.com/rickbutton), and [Scott Opell](https://github.com/scottopell)
 Bendr is a lovable cartoon robot...no, that's not right.
 Bendr is a automatic music mashup generator.
 Simply add some music, type in some old song that you're sick of, hit 'Bend'and listen to the new and (hopefully) improved version.
 
-Bendr was developed for PennApps 2013f by a team consisting of Scott Opell, Rick Button, Kirby Kohlmorgen and Brittany Vacchiano.
+Bendr was developed for PennApps 2013f by a team from Purdue University.
 
 Note: Due to technical limitations of all the music services we explored, we weren't able to integrate this with Rdio, spotify, or anything like that, hence the need for your own music.
 
